@@ -1,0 +1,1 @@
+export { CantidadSemestres } from "./cantSemestres";
