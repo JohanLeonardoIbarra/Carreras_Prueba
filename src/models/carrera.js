@@ -1,4 +1,4 @@
-import connection from "../db/connection";
+import connection from "@DB/connection";
 import { Model, DataTypes } from "sequelize";
 
 class Carrera extends Model {}
