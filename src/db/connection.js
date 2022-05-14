@@ -1,7 +1,6 @@
 import Sequelize from "sequelize";
+import "dotenv/config";
 
-const connection = new Sequelize(
-  "postgres://yxwsqiib:XXxcqcza_Qtc9sA9lbYG9nvluFzHDh3A@lallah.db.elephantsql.com/yxwsqiib"
-);
+const connection = new Sequelize(process.env.DB_URI);
 
 export default connection;

@@ -1,4 +1,8 @@
-import { deUnaCarrera } from "./DeUnaCarrera";
-import { DiferenteCarrera } from "./DiferenteCarrera";
+import { byCarrera } from "./byCarrera";
+import { byDifCarrera } from "./byDifCarrera";
+import { create } from "./create";
+import { deleteM } from "./delete";
+import { update } from "./update";
+import { getAll } from "./getAll";
 
-export { deUnaCarrera, DiferenteCarrera };
+export { byCarrera, byDifCarrera, create, update, deleteM, getAll };

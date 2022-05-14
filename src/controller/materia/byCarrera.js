@@ -2,7 +2,7 @@ import connection from "../../db/connection";
 
 import { QueryTypes } from "sequelize";
 
-export const deUnaCarrera = async (req, res) => {
+export const byCarrera = async (req, res) => {
   try {
     const carreraId = req.params.id;
     const materias = await connection.query(

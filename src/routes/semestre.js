@@ -3,6 +3,10 @@ import * as Controller from "../controller/semestre";
 
 const router = new Router();
 
-router.get("/semestre/:id", Controller.CantidadSemestres);
+router.get("/semestres/:id", Controller.cantidad);
+router.get("/semestres", Controller.getAll);
+router.post("/semestres", Controller.create);
+router.put("/semestres/:id", Controller.update);
+router.delete("/semestres/:id", Controller.deleteS);
 
 export default router;
