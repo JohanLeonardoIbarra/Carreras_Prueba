@@ -3,7 +3,7 @@ import * as Controller from "../controller/semestre";
 
 const router = new Router();
 
-router.get("/semestres/:id", Controller.cantidad);
+router.get("/semestres/cantidad", Controller.cantidad);
 router.get("/semestres", Controller.getAll);
 router.post("/semestres", Controller.create);
 router.put("/semestres/:id", Controller.update);
